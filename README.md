@@ -46,3 +46,12 @@ The overall accuracy score of 99% underscores the model's outstanding performanc
 
 ![alt text](https://github.com/mdyousufreja/credit-risk-classification_reja/assets/135454460/7c7c1606-758e-4e3b-a340-1505e4b34a9a)
 
+
+## Summary ##
+
+Model 2 exhibits a reduced likelihood of producing false negative outcomes compared to Model 1. Both Model 1 and Model 2 share the same level of precision for both low-risk and high-risk loans. However, Model 2 attains a notably higher accuracy score at 99%, while Model 1 achieves 95%.
+
+Moreover, Model 2 boasts a superior recall, indicating its ability to identify true positives more effectively than Model 1. In essence, this implies that Model 2 excels at capturing a higher proportion of actual high-risk loans correctly.
+
+In essence, if the primary objective of the model is to maximize the correct identification of true positive cases, then Model 2 clearly outperforms Model 1. It achieves this by minimizing false negatives and improving both accuracy and recall, making it the preferred choice for such a purpose.
+
