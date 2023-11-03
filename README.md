@@ -19,4 +19,6 @@ Downloaded the following files to get started:
 
 ## Two Machine Learning (ML) Models ##
 
-## ML Model 01- Methods and Results ##
+## ML Model 01 ##
+
+**Methods**: I conducted training on a logistic regression model using the initial training dataset.  I divided this model into training and test sets and proceeded to build a logistic regression model. Subsequently, I generated a confusion matrix and computed accuracy, precision, and recall for both the training and test sets.
