@@ -22,3 +22,8 @@ Downloaded the following files to get started:
 ## ML Model 01 ##
 
 **Methods**: I conducted training on a logistic regression model using the initial training dataset.  I divided this model into training and test sets and proceeded to build a logistic regression model. Subsequently, I generated a confusion matrix and computed accuracy, precision, and recall for both the training and test sets.
+
+**Results**:
+
+ ![alt text](https://github.com/mdyousufreja/credit-risk-classification_reja/assets/135454460/1f4a88c8-8a05-4d70-8d4e-b2da8af9720a)
+
