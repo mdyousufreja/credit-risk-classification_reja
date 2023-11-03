@@ -24,6 +24,11 @@ Downloaded the following files to get started:
 **Methods**: I conducted training on a logistic regression model using the initial training dataset.  I divided this model into training and test sets and proceeded to build a logistic regression model. Subsequently, I generated a confusion matrix and computed accuracy, precision, and recall for both the training and test sets.
 
 **Results**:
+The logistic regression model exhibits exceptional precision when predicting healthy loans ('0'), achieving a perfect 100% precision rate. This means that every time the model identifies a loan as "healthy," it is indeed a correct classification. In simpler terms, there are no false positive predictions for healthy loans.
+
+For high-risk loans ('1'), the model maintains a relatively high precision of 85%. This indicates that when the model categorizes a loan as "high risk," it is accurate 85% of the time, with a relatively small number of false positives within this category.
+
+The overall accuracy score of 95% signifies the model's strong performance in correctly classifying both healthy and high-risk loans throughout the dataset. It indicates that 95% of the model's predictions are accurate. This high level of accuracy suggests that the model is adept at making reliable predictions across the majority of the dataset, despite the precision for high-risk loans being slightly lower than for healthy loans. In general, a 95% accuracy score demonstrates the model's effectiveness in correctly identifying loans in this classification task. See the results below- 
 
  ![alt text](https://github.com/mdyousufreja/credit-risk-classification_reja/assets/135454460/1f4a88c8-8a05-4d70-8d4e-b2da8af9720a)
 
