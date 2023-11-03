@@ -32,3 +32,17 @@ The overall accuracy score of 95% signifies the model's strong performance in co
 
  ![alt text](https://github.com/mdyousufreja/credit-risk-classification_reja/assets/135454460/1f4a88c8-8a05-4d70-8d4e-b2da8af9720a)
 
+
+## ML Model 02 ##
+
+**Methods**: I developed an additional logistic regression model using the training data that had been oversampled. Subsequently, I conducted an evaluation of its performance, following a similar approach to the one employed for the original model.
+
+**Results**:
+The logistic regression model demonstrates remarkable precision when it comes to predicting healthy loans ('0'), achieving a perfect precision rate of 100%. This means that every time the model identifies a loan as "healthy," it is indeed a correct classification. There are no false positive predictions for healthy loans.
+
+For high-risk loans ('1'), the model maintains a relatively high precision of 84%. This indicates that when the model categorizes a loan as "high risk," it is accurate 84% of the time, with a modest number of false positive predictions within this category.
+
+The overall accuracy score of 99% underscores the model's outstanding performance in correctly classifying both healthy and high-risk loans across the dataset. It suggests that 99% of the model's predictions are correct, reflecting a high level of accuracy. This exceptional accuracy score highlights the model's proficiency in making precise predictions for the majority of the dataset, despite the slight reduction in precision for high-risk loans compared to healthy loans. Overall, a 99% accuracy score is indicative of the model's excellence in correctly identifying loans in this classification task. See the results below- 
+
+![alt text](https://github.com/mdyousufreja/credit-risk-classification_reja/assets/135454460/7c7c1606-758e-4e3b-a340-1505e4b34a9a)
+
